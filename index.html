@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Ice Cream</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>What's your favorite Ice Cream?</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="flavor1">Favorite flavor</label>
+            <input id="flavor1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="flavor2">2nd favorite flavor</label>
+            <input id="flavor2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="flavor3">3rd favorite flavor</label>
+            <input id="flavor3" class="form-control" type="text">
+          </div>
+
+
+          <button type="submit" class="btn">Take my order!</button>
+        </form>
+
+        <div id="order">
+          <h2>Here is your order!</h2>
+          <p>Ice cream order: <span class="flavor1"></span>, <span class="flavor2"></span> and <span class="flavor3"></span></p>
+
+    </div>
+  </body>
+</html>
